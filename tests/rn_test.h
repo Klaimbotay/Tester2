@@ -1,8 +1,8 @@
-#ifndef R1E_TEST_H
-#define R1E_TEST_H
+#ifndef RN_TEST_H
+#define RN_TEST_H
 #include "shared.h"
 
-TEST(r1e_test, test1) {
+TEST(rn_test, test1) {
     /*
         Open output file
     */
@@ -27,7 +27,7 @@ TEST(r1e_test, test1) {
         Run test function
     */
 
-   remove_first_entry_line(txt);
+   rn(txt);
    show(txt);
 
     /*
@@ -52,7 +52,7 @@ TEST(r1e_test, test1) {
     }
 }
 
-TEST(r1e_test, test2) {
+TEST(rn_test, test2) {
     /*
         Open output file
     */
@@ -77,7 +77,7 @@ TEST(r1e_test, test2) {
         Run test function
     */
 
-   remove_first_entry_line(txt);
+   rn(txt);
    show(txt);
 
     /*
@@ -102,7 +102,7 @@ TEST(r1e_test, test2) {
     }
 }
 
-TEST(r1e_test, test3) {
+TEST(rn_test, test3) {
     /*
         Open output file
     */
@@ -127,7 +127,7 @@ TEST(r1e_test, test3) {
         Run test function
     */
 
-   remove_first_entry_line(txt);
+   rn(txt);
    show(txt);
 
     /*
@@ -155,4 +155,4 @@ TEST(r1e_test, test3) {
 
 
 
-#endif // R1E_TEST_H
+#endif // RN_TEST_H

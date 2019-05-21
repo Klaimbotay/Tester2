@@ -1,12 +1,12 @@
-#ifndef MLB_TEST_H
-#define MLB_TEST_H
+#ifndef MPWEB_TEST_H
+#define MPWEB_TEST_H
 #include "shared.h"
 
 extern "C" {
 #include "common.h"
 }
 
-TEST(mlb_test, test1) {
+TEST(mpweb_test, test1) {
     /*
         Open output file
     */
@@ -32,7 +32,7 @@ TEST(mlb_test, test1) {
     */
 
    mwcrsr(txt, 1, 3);
-   cursor_to_begin(txt);
+   mpweb(txt);
    show(txt);
 
     /*
@@ -57,7 +57,7 @@ TEST(mlb_test, test1) {
     }
 }
 
-TEST(mlb_test, test2) {
+TEST(mpweb_test, test2) {
     /*
         Open output file
     */
@@ -83,7 +83,7 @@ TEST(mlb_test, test2) {
     */
 
    mwcrsr(txt, 3, 3);
-   cursor_to_begin(txt);
+   mpweb(txt);
    show(txt);
 
     /*
@@ -108,7 +108,7 @@ TEST(mlb_test, test2) {
     }
 }
 
-TEST(mlb_test, test3) {
+TEST(mpweb_test, test3) {
     /*
         Open output file
     */
@@ -133,7 +133,7 @@ TEST(mlb_test, test3) {
         Run test function
     */
 
-   cursor_to_begin(txt);
+   mpweb(txt);
    show(txt);
 
     /*
@@ -161,4 +161,4 @@ TEST(mlb_test, test3) {
 
 
 
-#endif // MLB_TEST_H
+#endif // MPWEB_TEST_H

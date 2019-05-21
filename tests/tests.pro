@@ -18,16 +18,17 @@ LIBS += -lgcov
 HEADERS += ../app/common.h \
     ../app/text/_text.h \
     ../app/text/text.h \
-    showupper_test.h \
-    r1e_test.h \
-    mlb_test.h \
-    shared.h
+    showunderscores_test.h \
+    rn_test.h \
+    mpweb_test.h \
+    shared.h \
+    rn_test.h
 
 SOURCES += main.cpp \
     ../app/load.c \
-    ../app/showupper.c \
-    ../app/remove_first_entry_line.c \
-    ../app/cursor_to_begin.c \
+    ../app/showunderscores.c \
+    ../app/rn.c \
+    ../app/mpweb.c \
     ../app/mwcrsr.c \
     ../app/text/append_line.c \
     ../app/text/delete_line.c \

@@ -5,9 +5,9 @@ CONFIG -= qt
 
 SOURCES += editor.c \
     load.c \
-    showupper.c \
-    remove_first_entry_line.c \
-    cursor_to_begin.c \
+    showunderscores.c \
+    rn.c \
+    mpweb.c \
     show.c \
     mwcrsr.c \
     text/append_line.c \

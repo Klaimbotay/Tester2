@@ -53,9 +53,9 @@ int main() {
       continue;
     }
 
-    /* Переводим в верхний регистр */
-    if (strcmp(cmd, "showupper") == 0) {
-      showupper(txt);
+    /* Заменяем пробелы на подчеркивания    <<<<<<<<*/
+    if (strcmp(cmd, "showunderscores") == 0) {
+      showunderscores(txt);
       continue;
     }
 
@@ -64,15 +64,15 @@ int main() {
       continue;
     }
 
-    /* Удаляем первую пустую строку */
-    if (strcmp(cmd, "r1e") == 0) {
-      remove_first_entry_line(txt);
+    /* Удаляем строку после текущей   <<<<<<<< */
+    if (strcmp(cmd, "rn") == 0) {
+      rn(txt);
       continue;
     }
 
-    /* Перемещаем курсор в начало строки */
-    if (strcmp(cmd, "mlb") == 0) {
-      cursor_to_begin(txt);
+    /* Перемещаем курсор в конец предыдущего слова   <<<<<<<< */
+    if (strcmp(cmd, "mpweb") == 0) {
+      mpweb(txt);
       continue;
     }
 

@@ -1,5 +1,5 @@
-#ifndef SHOWUPPER_TEST_H
-#define SHOWUPPER_TEST_H
+#ifndef SHOWUNDERSCORES_TEST_H
+#define SHOWUNDERSCORES_TEST_H
 #include "shared.h"
 
 extern "C" {
@@ -7,7 +7,7 @@ extern "C" {
 }
 
 
-TEST(showUpperTest, test1) {
+TEST(showUnderscores_test, test1) {
     /*
         Open output file
     */
@@ -33,7 +33,7 @@ TEST(showUpperTest, test1) {
         Run test function
     */
 
-    showupper(txt);
+    showunderscores(txt);
 
     /*
         Close output file
@@ -57,7 +57,7 @@ TEST(showUpperTest, test1) {
     }
 }
 
-TEST(showUpperTest, test2) {
+TEST(showUnderscores_test, test2) {
     /*
         Open output file
     */
@@ -82,7 +82,7 @@ TEST(showUpperTest, test2) {
         Run test function
     */
 
-    showupper(txt);
+    showunderscores(txt);
 
     /*
         Close output file
@@ -106,7 +106,7 @@ TEST(showUpperTest, test2) {
     }
 }
 
-TEST(showUpperTest, test3) {
+TEST(showUnderscores_test, test3) {
     /*
         Open output file
     */
@@ -131,7 +131,7 @@ TEST(showUpperTest, test3) {
         Run test function
     */
 
-    showupper(txt);
+    showunderscores(txt);
 
     /*
         Close output file
@@ -155,7 +155,7 @@ TEST(showUpperTest, test3) {
     }
 }
 
-TEST(showUpperTest, test4) {
+TEST(showUnderscores_test, test4) {
     /*
         Open output file
     */
@@ -180,7 +180,7 @@ TEST(showUpperTest, test4) {
         Run test function
     */
 
-    showupper(txt);
+    showunderscores(txt);
 
     /*
         Close output file
@@ -204,7 +204,7 @@ TEST(showUpperTest, test4) {
     }
 }
 
-TEST(showUpperTest, test5) {
+TEST(showUnderscores_test, test5) {
     /*
         Open output file
     */
@@ -229,7 +229,7 @@ TEST(showUpperTest, test5) {
         Run test function
     */
 
-    showupper(txt);
+    showunderscores(txt);
 
     /*
         Close output file
@@ -254,4 +254,4 @@ TEST(showUpperTest, test5) {
 }
 
 
-#endif // SHOWUPPER_TEST_H
+#endif // SHOWUNDERSCORES_TEST_H
